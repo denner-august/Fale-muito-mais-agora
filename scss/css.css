@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/3414695.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+header h1:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 2.5rem;
+}
+
+main {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10px;
+}
+
+main #propaganda {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 85vh;
+  background-color: #012453b2;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 40px;
+  font-size: 1.3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #propaganda h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main #propaganda #funcao {
+  margin-top: 20px;
+  text-align: center;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  background-color: #3b5898d3;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid;
+}
+
+main #propaganda #funcao:active {
+  background-color: #185cee;
+}
+
+main #CalculoPlanos {
+  color: white;
+  background-color: #012453b2;
+  width: 50%;
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #CalculoPlanos h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 5px;
+}
+
+main #CalculoPlanos #Origem, main #CalculoPlanos #Destino, main #CalculoPlanos #Planos {
+  width: 300px;
+  height: 40px;
+  cursor: pointer;
+}
+
+main #CalculoPlanos #tempo input {
+  width: 300px;
+  height: 40px;
+  cursor: pointer;
+}
+
+main #CalculoPlanos form input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5px;
+  height: 40px;
+  width: 300px;
+  background-color: white;
+}
+/*# sourceMappingURL=css.css.map */

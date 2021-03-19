@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fale Mais</title>
+    <meta name="description" content="Software de Telefonia">
+    <meta name='author' content='Denner Augusto'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./scss/css.css">
+    <link rel="stylesheet" href="./scss/mobile.css">
+    <link rel="shortcut icon" href="./images/smartphone.svg" type="image/x-icon">
+    <script src="./javascript/jquery 3.6.0.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Fale muito mais Pague muito menos</h1>
+    </header>
+
+    <main>
+        <div id="propaganda">
+            <h2><strong>FaleMais</strong></h2>
+            <p>Estamos lançando o nosso novo produto Inedito <br> Agora com o Fale mais você apaga
+                <strong>Apenas</strong> o que exceder o limite do plano<br> <strong>E TEM MAIS</strong> <br>
+                Você pode trocar de plano a Qualquer momento <br> faça o teste agora mesmo do nosso
+                <strong>novo</strong> produto</p>
+            <button id="funcao">Faça o Teste agora mesmo </button>
+        </div>
+
+        <div id="CalculoPlanos">
+
+            <div id="CalculoOrigem">
+                <h3>origem</h3>
+                <select id="Origem">
+                    <option value="0">11</option>
+                    <option value="2.90">16</option>
+                    <option value="2.70">17</option>
+                    <option value="1.90">18</option>
+                </select>
+            </div>
+
+            <div id="CalculoDestino">
+                <h3>Destino</h3>
+                <select id="Destino">
+                    <option value="1.90">16</option>
+                    <option value="1.70">17</option>
+                    <option value="0">11</option>
+                    <option value="0.90">18</option>
+                </select>
+            </div>
+
+            <div id="PlanosDisponivel">
+                <h3>Nossos planos</h3>
+                <select id="Planos">
+                    <option value="30">FaleMais 30</option>
+                    <option value="60">FaleMais 60</option>
+                    <option value="120">FaleMais 120</option>
+                </select>
+            </div>
+
+            <div id="tempo">
+                <h3>Minutos</h3>
+                <input id="minutos" type="number" placeholder="Tempo" min="1" value="1">
+            </div>
+
+            <form action="">
+                <h3>Resultado</h3>
+                <input id="ComPlano" type="text" placeholder="Com plano" disabled>
+                <input id="SemPlano" type="text" placeholder="Não plano" disabled>
+            </form>
+
+
+        </div>
+    </main>
+
+
+
+    <script src="./javascript/javascript.js" async defer></script>
+</body>
+
+</html>

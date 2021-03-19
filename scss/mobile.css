@@ -1,0 +1,32 @@
+@media screen and (max-width: 750px) {
+  body {
+    height: auto;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main #propaganda, main #CalculoPlanos {
+    width: 80%;
+    height: auto;
+    padding-bottom: 100px;
+  }
+  main #CalculoPlanos h3 {
+    font-size: 1rem;
+  }
+  main #CalculoPlanos #Origem, main #CalculoPlanos #Destino, main #CalculoPlanos #Planos {
+    width: 45vw;
+  }
+  main #CalculoPlanos #tempo input {
+    width: 45vw;
+  }
+  main #CalculoPlanos form input {
+    width: 45vw;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

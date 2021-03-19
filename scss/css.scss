@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url(../images/3414695.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    padding: 10px;
+   font-family: 'Roboto', sans-serif;
+   height: 100vh;
+}
+
+header{
+    color: white;
+    text-align: center;
+
+    h1:hover{
+        transition: 0.3s;
+        font-size: 2.5rem;
+    }
+}
+
+// variaveis do MAIN
+
+$main-width : 300px;
+$main-heigth: 40px;
+
+main{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+
+    #propaganda{
+        padding: 10px;
+        display: flex;
+        width: 50%;
+        height: 85vh;
+        background-color: #012453b2;
+        color: white;
+        flex-direction: column;
+        line-height: 40px;
+        font-size: 1.3rem;
+        align-items: center;
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #funcao{
+            margin-top: 20px;
+            text-align: center;
+            cursor: pointer;
+            height: 50px;
+            width: 200px;
+            background-color: #3b5898d3;
+            border-radius: 10px;
+            color: white;
+            border: 1px solid;
+        }
+
+        #funcao:active{
+            background-color: #185cee;
+        }
+        
+    }
+
+    #CalculoPlanos{
+        color: white;
+        background-color: #012453b2;
+        width: 50%;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        h3{
+            font-size: 1.5rem;
+            text-align: center;
+            margin: 5px;
+        }
+
+        #Origem,#Destino,#Planos{
+            width: $main-width;
+            height: $main-heigth;
+            cursor: pointer;
+        }
+
+        #tempo{
+            input{
+                width: $main-width;
+                height: $main-heigth;
+                cursor: pointer;
+            }
+        }
+
+        form{
+            input{
+                display: flex;
+                flex-direction: column;
+                margin: 5px;
+                height: $main-heigth;
+                width: $main-width;
+                background-color: white;
+            }
+        }
+
+    }
+    
+}
